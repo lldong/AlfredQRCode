@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2816E7871502433400B8DF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7861502433400B8DF61 /* main.m */; };
+		2816E78B1502433400B8DF61 /* AlfredQRCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2816E78A1502433400B8DF61 /* AlfredQRCode.1 */; };
+		2816E7971502435300B8DF61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7921502434300B8DF61 /* AppDelegate.m */; };
+		2816E7981502435900B8DF61 /* QSQRCodeRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7931502434D00B8DF61 /* QSQRCodeRenderer.m */; };
+		2816E7991502435D00B8DF61 /* QSQRShowImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7951502434D00B8DF61 /* QSQRShowImage.m */; };
+		2816E7AF1502436700B8DF61 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 2816E79B1502436700B8DF61 /* bitstream.c */; };
+		2816E7B01502436700B8DF61 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7A01502436700B8DF61 /* mask.c */; };
+		2816E7B11502436700B8DF61 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7A21502436700B8DF61 /* qrencode.c */; };
+		2816E7B21502436700B8DF61 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7A51502436700B8DF61 /* qrinput.c */; };
+		2816E7B31502436700B8DF61 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7A71502436700B8DF61 /* qrspec.c */; };
+		2816E7B41502436700B8DF61 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7AA1502436700B8DF61 /* rscode.c */; };
+		2816E7B51502436700B8DF61 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 2816E7AC1502436700B8DF61 /* split.c */; };
+		2816E7B71502439C00B8DF61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2816E7B61502439C00B8DF61 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2816E77D1502433400B8DF61 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				2816E78B1502433400B8DF61 /* AlfredQRCode.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2816E77F1502433400B8DF61 /* AlfredQRCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlfredQRCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		2816E7861502433400B8DF61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2816E7891502433400B8DF61 /* AlfredQRCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlfredQRCode-Prefix.pch"; sourceTree = "<group>"; };
+		2816E78A1502433400B8DF61 /* AlfredQRCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AlfredQRCode.1; sourceTree = "<group>"; };
+		2816E7911502434300B8DF61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2816E7921502434300B8DF61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2816E7931502434D00B8DF61 /* QSQRCodeRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSQRCodeRenderer.m; sourceTree = "<group>"; };
+		2816E7941502434D00B8DF61 /* QSQRShowImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSQRShowImage.h; sourceTree = "<group>"; };
+		2816E7951502434D00B8DF61 /* QSQRShowImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSQRShowImage.m; sourceTree = "<group>"; };
+		2816E7961502434D00B8DF61 /* QSQRCodeRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSQRCodeRenderer.h; sourceTree = "<group>"; };
+		2816E79B1502436700B8DF61 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		2816E79C1502436700B8DF61 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		2816E79D1502436700B8DF61 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		2816E79E1502436700B8DF61 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2816E79F1502436700B8DF61 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		2816E7A01502436700B8DF61 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		2816E7A11502436700B8DF61 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		2816E7A21502436700B8DF61 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		2816E7A31502436700B8DF61 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		2816E7A41502436700B8DF61 /* qrencode_inner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode_inner.h; sourceTree = "<group>"; };
+		2816E7A51502436700B8DF61 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		2816E7A61502436700B8DF61 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		2816E7A71502436700B8DF61 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		2816E7A81502436700B8DF61 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		2816E7A91502436700B8DF61 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2816E7AA1502436700B8DF61 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		2816E7AB1502436700B8DF61 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		2816E7AC1502436700B8DF61 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		2816E7AD1502436700B8DF61 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		2816E7AE1502436700B8DF61 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		2816E7B61502439C00B8DF61 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2816E77C1502433400B8DF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2816E7B71502439C00B8DF61 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2816E7741502433300B8DF61 = {
+			isa = PBXGroup;
+			children = (
+				2816E7851502433400B8DF61 /* AlfredQRCode */,
+				2816E7821502433400B8DF61 /* Frameworks */,
+				2816E7801502433400B8DF61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2816E7801502433400B8DF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2816E77F1502433400B8DF61 /* AlfredQRCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2816E7821502433400B8DF61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2816E7B61502439C00B8DF61 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2816E7851502433400B8DF61 /* AlfredQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				2816E79A1502436700B8DF61 /* libqrencode */,
+				2816E7911502434300B8DF61 /* AppDelegate.h */,
+				2816E7921502434300B8DF61 /* AppDelegate.m */,
+				2816E7941502434D00B8DF61 /* QSQRShowImage.h */,
+				2816E7951502434D00B8DF61 /* QSQRShowImage.m */,
+				2816E7961502434D00B8DF61 /* QSQRCodeRenderer.h */,
+				2816E7931502434D00B8DF61 /* QSQRCodeRenderer.m */,
+				2816E7861502433400B8DF61 /* main.m */,
+				2816E78A1502433400B8DF61 /* AlfredQRCode.1 */,
+				2816E7881502433400B8DF61 /* Supporting Files */,
+			);
+			path = AlfredQRCode;
+			sourceTree = "<group>";
+		};
+		2816E7881502433400B8DF61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2816E7891502433400B8DF61 /* AlfredQRCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2816E79A1502436700B8DF61 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				2816E79B1502436700B8DF61 /* bitstream.c */,
+				2816E79C1502436700B8DF61 /* bitstream.h */,
+				2816E79D1502436700B8DF61 /* ChangeLog */,
+				2816E79E1502436700B8DF61 /* config.h */,
+				2816E79F1502436700B8DF61 /* COPYING */,
+				2816E7A01502436700B8DF61 /* mask.c */,
+				2816E7A11502436700B8DF61 /* mask.h */,
+				2816E7A21502436700B8DF61 /* qrencode.c */,
+				2816E7A31502436700B8DF61 /* qrencode.h */,
+				2816E7A41502436700B8DF61 /* qrencode_inner.h */,
+				2816E7A51502436700B8DF61 /* qrinput.c */,
+				2816E7A61502436700B8DF61 /* qrinput.h */,
+				2816E7A71502436700B8DF61 /* qrspec.c */,
+				2816E7A81502436700B8DF61 /* qrspec.h */,
+				2816E7A91502436700B8DF61 /* README */,
+				2816E7AA1502436700B8DF61 /* rscode.c */,
+				2816E7AB1502436700B8DF61 /* rscode.h */,
+				2816E7AC1502436700B8DF61 /* split.c */,
+				2816E7AD1502436700B8DF61 /* split.h */,
+				2816E7AE1502436700B8DF61 /* TODO */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2816E77E1502433400B8DF61 /* AlfredQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2816E78E1502433400B8DF61 /* Build configuration list for PBXNativeTarget "AlfredQRCode" */;
+			buildPhases = (
+				2816E77B1502433400B8DF61 /* Sources */,
+				2816E77C1502433400B8DF61 /* Frameworks */,
+				2816E77D1502433400B8DF61 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlfredQRCode;
+			productName = AlfredQRCode;
+			productReference = 2816E77F1502433400B8DF61 /* AlfredQRCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2816E7761502433300B8DF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2816E7791502433400B8DF61 /* Build configuration list for PBXProject "AlfredQRCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2816E7741502433300B8DF61;
+			productRefGroup = 2816E7801502433400B8DF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2816E77E1502433400B8DF61 /* AlfredQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2816E77B1502433400B8DF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2816E7871502433400B8DF61 /* main.m in Sources */,
+				2816E7971502435300B8DF61 /* AppDelegate.m in Sources */,
+				2816E7981502435900B8DF61 /* QSQRCodeRenderer.m in Sources */,
+				2816E7991502435D00B8DF61 /* QSQRShowImage.m in Sources */,
+				2816E7AF1502436700B8DF61 /* bitstream.c in Sources */,
+				2816E7B01502436700B8DF61 /* mask.c in Sources */,
+				2816E7B11502436700B8DF61 /* qrencode.c in Sources */,
+				2816E7B21502436700B8DF61 /* qrinput.c in Sources */,
+				2816E7B31502436700B8DF61 /* qrspec.c in Sources */,
+				2816E7B41502436700B8DF61 /* rscode.c in Sources */,
+				2816E7B51502436700B8DF61 /* split.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2816E78C1502433400B8DF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2816E78D1502433400B8DF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2816E78F1502433400B8DF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlfredQRCode/AlfredQRCode-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2816E7901502433400B8DF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlfredQRCode/AlfredQRCode-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2816E7791502433400B8DF61 /* Build configuration list for PBXProject "AlfredQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2816E78C1502433400B8DF61 /* Debug */,
+				2816E78D1502433400B8DF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2816E78E1502433400B8DF61 /* Build configuration list for PBXNativeTarget "AlfredQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2816E78F1502433400B8DF61 /* Debug */,
+				2816E7901502433400B8DF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2816E7761502433300B8DF61 /* Project object */;
+}
